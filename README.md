@@ -2,31 +2,32 @@
 
 MPEG-TS analysis，仅支持中文
 
-功能概述
+## 功能概述
 
 hysAnalyser是一款 MPEG-TS 数据分析工具 （Github：https://github.com/zymill/hysAnalyser）
 
-1）MPEG-TS离线文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，RTP封装包列表等）
+  * 1）MPEG-TS离线文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，RTP封装包列表等）
 
-2）HLS实时流接入（M3u8列表，分片缓存等分析）
+  * 2）HLS实时流接入（M3u8列表，分片缓存等分析）
 
-3）除主流的MPEG-1/2/4，H.264/AVC、H.265/HEVC外，工具扩展支持了 H.266/VVC, AVS2, AVS3等编码格式 
+  * 3）除主流的MPEG-1/2/4，H.264/AVC、H.265/HEVC外，工具扩展支持了 H.266/VVC, AVS2, AVS3等编码格式 
 
-4）支持分析结果数据的导出，包括PCR，时间戳，码率，时间间距等内容
+  * 4）支持分析结果数据的导出，包括PCR，时间戳，码率，时间间距等内容
 
-5）流转换功能：从多节目流按需配置参数提取节目流；
+  * 5）流转换功能：从多节目流按需配置参数提取节目流；
 
-6）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据，
+  * 6）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据，
 
-可能有些朋友会问，为什么不加上 ES 提取和 ES 分析功能（类似于 flvAnalyser），主要是时间来不及了。flvAnalyser 已有这些功能，如果朋友们迫切需要，可以通过 flvAnalyser 做ES分析。后期笔者再逐步完善和补充。
+
+  可能有些朋友会问，为什么不加上 ES 提取和 ES 分析功能（类似于 flvAnalyser），主要是时间来不及了。flvAnalyser 已有这些功能，如果朋友们迫切需要，可以通过 flvAnalyser 做ES分析。后期笔者再逐步完善和补充。
 
 （提示：部分功能需软件授权后才能使用，授权方法和费用请参考最后说明）
 
-说明：
+## 说明
 
-1）flvAnalyser 全免费 （除了flv分析外，还具备H264/H265/H266/AVS3等ES数据的分析和预览）
+  * 1）flvAnalyser 全免费 （除了flv分析外，还具备H264/H265/H266/AVS3等ES数据的分析和预览）
 
-2）hysAnalyser 大部分功能可免费使用。部分功能不免费，需要授权才能使用，需要的朋友可以参考文章结尾的授权说明！（微信：wybase）
+  * 2）hysAnalyser 大部分功能可免费使用。部分功能不免费，需要授权才能使用，需要的朋友可以参考文章结尾的授权说明！（微信：wybase）
 
   flvAnalyser综述 (Chinese): [https://cloud.tencent.com/developer/article/2344723]
   
