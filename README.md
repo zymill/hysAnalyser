@@ -4,7 +4,7 @@ MPEG-TS analysis，仅支持中文
 
 ## 功能概述
 
-hysAnalyser是一款 MPEG-TS 数据分析工具 （Github：https://github.com/zymill/hysAnalyser）
+hysAnalyser是一款 MPEG-TS 数据分析工具 ( Github：https://github.com/zymill/hysAnalyser )
 
   * 1）MPEG-TS离线文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，RTP封装包列表等）
 
