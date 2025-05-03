@@ -46,13 +46,22 @@ hysAnalyser是一款 MPEG-TS 数据分析工具 （Github：https://github.com/z
   * 授权方法
 
   1.入口
-  ![auth1 for data](image/auth_001.png)
+  
+<center class="half">
+    <img src="image/auth_001.png" width="480"/>
+</center>
   
   2.采集机器码
-  ![auth2 for data](image/auth_002.png)
+
+<center class="half">
+    <img src="image/auth_002.png" width="480"/>
+</center>
   
   3.注册
-  ![auth3 for data](image/auth_003.png)
+
+<center class="half">
+    <img src="image/auth_003.png" width="480"/>
+</center>
 
 ## Links
 
