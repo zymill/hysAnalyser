@@ -31,7 +31,9 @@ hysAnalyser是一款 MPEG-TS 数据分析工具 ( Github：https://github.com/zy
 
   flvAnalyser综述 (Chinese): [https://cloud.tencent.com/developer/article/2344723]
   
-  hysAnalyser综述 (Chinese): [https://zhuanlan.zhihu.com/p/1902174484636631934]
+  hysAnalyser综述 (Chinese): [https://cloud.tencent.com/developer/article/2517652]
+  
+  (知乎发布地址)[https://zhuanlan.zhihu.com/p/1902174484636631934]
 
 
 ## 联系和费用介绍
