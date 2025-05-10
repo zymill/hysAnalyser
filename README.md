@@ -1,10 +1,10 @@
 # hysAnalyser 
 
-MPEG-TS analysis，仅支持中文
+  MPEG-TS analysis，仅支持中文
 
 ## 功能概述
 
-hysAnalyser是一款 MPEG-TS 数据分析工具 ( Github：https://github.com/zymill/hysAnalyser )
+  hysAnalyser是一款 MPEG-TS 数据分析和转换工具 ( Github：https://github.com/zymill/hysAnalyser )
 
   * 1）MPEG-TS离线文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，RTP封装包列表等）
 
@@ -19,9 +19,58 @@ hysAnalyser是一款 MPEG-TS 数据分析工具 ( Github：https://github.com/zy
   * 6）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据，
 
 
-  可能有些朋友会问，为什么不加上 ES 提取和 ES 分析功能（类似于 flvAnalyser），主要是时间来不及了。flvAnalyser 已有这些功能，如果朋友们迫切需要，可以通过 flvAnalyser 做ES分析。后期笔者再逐步完善和补充。
+  可能有些朋友会问，为什么不加上 ES 提取和 ES 分析功能（类似于 flvAnalyser），主要是时间来不及了。flvAnalyser 已有这些功能，如果朋友们迫切需要，可以通过 flvAnalyser 做ES分析。后期再逐步完善和补充。
 
 （提示：部分功能需软件授权后才能使用，授权方法和费用请参考最后说明）
+
+
+## 图示
+
+### 基本信息
+
+<center class="half">
+    <img src="image/result_main.png" width="1280"/>
+</center>
+
+### 逐包分析
+
+* 全量包
+
+<center class="half">
+    <img src="image/pkt_001.png" width="1280"/>
+</center>
+
+* PSI/SI过滤
+
+<center class="half">
+    <img src="image/pkt_002.png" width="1280"/>
+</center>
+
+* 时间戳过滤
+
+<center class="half">
+    <img src="image/pkt_002.png" width="1280"/>
+</center>
+
+
+### 时间戳曲线
+
+<center class="half">
+    <img src="image/timestamp_diff.png" width="1280"/>
+</center>
+
+### ts流编辑
+
+<center class="half">
+    <img src="image/edit.png" width="1280"/>
+</center>
+
+### 节目提取和转换
+
+<center class="half">
+    <img src="image/trc.png" width="1280"/>
+</center>
+
 
 ## 说明
 
