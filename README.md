@@ -85,7 +85,7 @@
   (知乎发布地址)[https://zhuanlan.zhihu.com/p/1902174484636631934]
 
 
-## 联系和费用介绍
+## 授权联系和费用介绍
 
   * 知乎 (Chinese)：[https://www.zhihu.com/people/zymill]
 
