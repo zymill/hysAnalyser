@@ -120,7 +120,7 @@
  * 如果您愿意支持本软件的长期发展，可以通过微信赞赏。谢谢！（若赞赏额超出注册费用，请告知作者，以便作者及时提供授权码）
 
 <center class="half">
-    <img src="image/zs.jpg" width="800"/>
+    <img src="image/zs.jpg" width="640"/>
 </center>
 
 ## Links
