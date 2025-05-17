@@ -61,6 +61,14 @@
     <img src="image/timestamp_diff.png" width="1280"/>
 </center>
 
+
+### ES流导出
+
+<center class="half">
+    <img src="image/pes_export.png" width="1280"/>
+</center>
+
+
 ### ts流编辑
 
 <center class="half">
