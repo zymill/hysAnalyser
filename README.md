@@ -54,6 +54,11 @@
     <img src="image/pkt_003.png" width="1280"/>
 </center>
 
+* 右键菜单：PID过滤和快速定位
+
+<center class="half">
+    <img src="image/pkt_004.png" width="1280"/>
+</center>
 
 ### 时间戳曲线
 
@@ -67,7 +72,6 @@
 <center class="half">
     <img src="image/pes_export.png" width="1280"/>
 </center>
-
 
 ### ts流编辑
 
