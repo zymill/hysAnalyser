@@ -12,13 +12,15 @@
 
   * 3）除主流的MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC外，工具扩展支持了 H.266/VVC, AVS2, AVS3等编码格式 
 
-  * 4）支持分析结果数据的导出，包括PCR，时间戳，码率，时间间距等内容
+  * 4）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析；
 
-  * 5）ES导出和分析：支持按PES格式 或 ES格式导出数据；结合flvAnalyser 分析ES
+  * 5）支持分析结果数据的导出，包括PCR，时间戳，码率，时间间距等内容
 
-  * 6）流转换功能：从多节目流按需配置参数提取节目流, 单节目TS转存MP4/MKV;
+  * 6）ES导出和分析：支持按PES格式 或 ES格式导出数据；结合flvAnalyser 分析ES
 
-  * 7）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据，
+  * 7）流转换功能：从多节目流按需配置参数提取节目流, 单节目TS转存MP4/MKV;
+
+  * 8）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据；
 
 
   ES 分析功能，如果朋友们迫切需要，可以通过 flvAnalyser 做ES分析。后期再逐步完善和补充。
@@ -95,12 +97,17 @@
   flvAnalyser综述 (Chinese): [https://cloud.tencent.com/developer/article/2344723]
   
   hysAnalyser综述 (Chinese): [https://cloud.tencent.com/developer/article/2517652]
-  
-  hysAnalyser从MPEG-TS导出ES功能说明 (Chinese): [https://cloud.tencent.com/developer/article/2521046]
-  
-  hysAnalyser特色的TS流编辑、剪辑和转存MP4功能说明 (Chinese): [https://zhuanlan.zhihu.com/p/1909374534462706463]
-  
+
   (知乎发布地址)[https://zhuanlan.zhihu.com/p/1902174484636631934]
+
+
+## 功能详细说明 
+  
+  * hysAnalyser从MPEG-TS导出ES功能说明 (Chinese): [https://cloud.tencent.com/developer/article/2521046]
+  
+  * hysAnalyser特色的TS流编辑、剪辑和转存MP4功能说明 (Chinese): [https://zhuanlan.zhihu.com/p/1909374534462706463]
+  
+  * hysAnalyser逐包分析MPEG-TS的功能说明(Chinese)  [https://zhuanlan.zhihu.com/p/1912444921148839675]
 
 
 ## 授权联系和费用介绍
