@@ -10,7 +10,7 @@
 
   * 2）HLS实时流接入（M3u8列表，分片缓存等分析）
 
-  * 3）除主流的MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC外，工具扩展支持了 H.266/VVC, AVS2, AVS3等编码格式 
+  * 3）除主流的MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC外，工具扩展支持了 H.266/VVC, AVS2, AVS3, Audio Vivid等编码格式 
 
   * 4）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析；
 
@@ -22,6 +22,7 @@
 
   * 8）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据；
 
+  * 9）定制化功能：非 MPEG-TS/DVB 标准数据支持;
 
   ES 分析功能，如果朋友们也可以通过 flvAnalyser 做 ES 分析。
 
@@ -108,6 +109,8 @@
 
 
 ## 功能详细说明 
+
+  * TS流分析专栏 (腾讯云): [https://cloud.tencent.com/developer/column/105278]
   
   * hysAnalyser从MPEG-TS导出ES功能说明 (Chinese): [https://cloud.tencent.com/developer/article/2521046]
   
@@ -115,6 +118,7 @@
   
   * hysAnalyser逐包分析MPEG-TS的功能说明(Chinese)  [https://zhuanlan.zhihu.com/p/1912444921148839675]
 
+  * hysAnalyser分析非标准数据的功能说明(Chinese)  [https://zhuanlan.zhihu.com/p/1919683425092233142]
 
 ## 授权联系和费用介绍
 
