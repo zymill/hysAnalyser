@@ -10,7 +10,7 @@
 
   * 2）HLS实时流接入（M3u8列表，分片缓存等分析）
 
-  * 3）除主流的MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC外，工具扩展支持了 H.266/VVC, AVS2, AVS3, Audio Vivid等编码格式 
+  * 3）除主流的MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC外，工具扩展支持了 H.266/VVC, AVS2, AVS3, Audio Vivid(AV3A)等编码格式 
 
   * 4）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析；
 
