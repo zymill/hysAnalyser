@@ -6,7 +6,7 @@
 
   hysAnalyser是一款 MPEG-TS 数据分析和转换工具 ( Github：https://github.com/zymill/hysAnalyser )
 
-  * 1）MPEG-TS离线文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，RTP封装包列表等）
+  * 1）MPEG-TS文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，RTP封装包列表等）
 
   * 2）HLS实时流接入（M3u8列表，分片缓存等分析）
 
@@ -14,9 +14,9 @@
 
   * 4）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析；
 
-  * 5）支持分析结果数据的导出，包括PCR，时间戳，码率，时间间距等内容
+  * 5）分析结果数据导出，包括PCR，时间戳，码率，时间间距等内容；
 
-  * 6）ES导出和分析：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS3 Nal unit/GOP/Picture List, 也结合 flvAnalyser 分析ES
+  * 6）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS3 Nal unit/GOP/Picture List，更多 ES 详情可结合 flvAnalyser
 
   * 7）流转换功能：从多节目流按需配置参数提取节目流, 单节目TS转存MP4/MKV;
 
@@ -24,7 +24,6 @@
 
   * 9）定制化功能：非 MPEG-TS/DVB 标准数据支持;
 
-  ES 分析功能，如果朋友们也可以通过 flvAnalyser 做 ES 分析。
 
 （提示：hysAnalyser 部分功能需软件授权后才能使用，授权方法和费用请参考最后说明）
 
