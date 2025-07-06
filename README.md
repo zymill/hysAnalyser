@@ -16,7 +16,7 @@
 
   * 5）分析结果数据导出，包括PCR，时间戳，码率，时间间距等内容；
 
-  * 6）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS3 Nal unit/GOP/Picture List，更多 ES 详情可结合 flvAnalyser
+  * 6）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS2/AVS3 Nalunit/GOP/Picture List，更多 ES 详情可结合 flvAnalyser
 
   * 7）流转换功能：从多节目流按需配置参数提取节目流, 单节目TS转存MP4/MKV;
 
