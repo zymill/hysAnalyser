@@ -22,8 +22,9 @@
 
   * 8）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据；
 
-  * 9）定制化功能：非 MPEG-TS/DVB 标准数据支持;
+  * 9）流播发功能：TS按PCR周期播发UDP 或RTP(over UDP);
 
+  * 10）定制化功能：非 MPEG-TS/DVB 标准数据支持;
 
 （提示：hysAnalyser 部分功能需软件授权后才能使用，授权方法和费用请参考最后说明）
 
@@ -93,10 +94,15 @@
     <img src="image/trc.png" width="1280"/>
 </center>
 
+### ts流播发
+
+<center class="half">
+    <img src="image/vss.png" width="1280"/>
+</center>
 
 ## 说明
 
-  * 1）flvAnalyser 全免费 （除了flv分析外，还具备H264/H265/H266/AVS3等ES数据的分析和预览）
+  * 1）flvAnalyser 全免费 （除了flv分析外，还具备H264/H265/H266/AVS2/AVS3等ES数据的分析和预览）
 
   * 2）hysAnalyser 大部分功能可免费使用。部分功能不免费，需要授权才能使用，需要的朋友可以参考文章结尾的授权说明！（微信：wybase）
 
@@ -127,7 +133,7 @@
 
   * Email: hybase@qq.com
 
-  * 授权费用：**35 元(RMB) / 单台机器**   (永久授权，享有后续版本升级的所有新功能)
+  * 授权费用：2025年促销价 **35 元(RMB) / 单台机器**   (永久授权，享有后续版本升级的所有新功能) （2026年01月01日将恢复定价 50元）
 
   * 授权方法
 
