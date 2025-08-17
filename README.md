@@ -117,13 +117,18 @@
 
   * TS流分析专栏 (腾讯云): [https://cloud.tencent.com/developer/column/105278]
   
-  * hysAnalyser从MPEG-TS导出ES功能说明 (Chinese): [https://cloud.tencent.com/developer/article/2521046]
+  * hysAnalyser从MPEG-TS导出ES功能说明: [https://cloud.tencent.com/developer/article/2521046]
   
-  * hysAnalyser特色的TS流编辑、剪辑和转存MP4功能说明 (Chinese): [https://zhuanlan.zhihu.com/p/1909374534462706463]
+  * hysAnalyser特色的TS流编辑、剪辑和转存MP4功能说明: [https://zhuanlan.zhihu.com/p/1909374534462706463]
   
-  * hysAnalyser逐包分析MPEG-TS的功能说明(Chinese)  [https://zhuanlan.zhihu.com/p/1912444921148839675]
+  * hysAnalyser逐包分析MPEG-TS的功能说明: [https://zhuanlan.zhihu.com/p/1912444921148839675]
 
-  * hysAnalyser分析非标准数据的功能说明(Chinese)  [https://zhuanlan.zhihu.com/p/1919683425092233142]
+  * hysAnalyser分析非标准数据的功能说明: [https://zhuanlan.zhihu.com/p/1919683425092233142]
+  
+  * hysAnalyser支持菁彩视听双Vivid媒体信息解析: [https://cloud.tencent.com/developer/article/2537509]
+  
+  * hysAnalyser支持文件转播UDP/RTP实时流功能: [https://cloud.tencent.com/developer/article/2553390]
+
 
 ## 授权联系和费用介绍
 
