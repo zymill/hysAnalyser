@@ -137,6 +137,8 @@
   
   * hysAnalyser支持文件转播UDP/RTP实时流功能: [https://cloud.tencent.com/developer/article/2553390]
 
+  * hysAnalyser --- 支持UDP实时流分析和录制功能: [https://zhuanlan.zhihu.com/p/1968455528788234645]
+
 
 ## 授权联系和费用介绍
 
