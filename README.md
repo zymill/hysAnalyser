@@ -26,7 +26,7 @@
 
   * 10）定制化功能：非 MPEG-TS/DVB 标准数据支持;
   
-  * 11）UDP实时流监测，开发中...
+  * 11）UDP实时流监测：实施码率曲线，PCR曲线，TR 101290统计等
 
 （提示：hysAnalyser 部分增值功能需软件授权后才能激活使用，授权方法和费用请参考最后说明）
 
@@ -106,6 +106,9 @@
 
 <center class="half">
     <img src="image/udp_01.png" width="1280"/>
+</center>
+<center class="half">
+    <img src="image/udp_02.png" width="1280"/>
 </center>
 
 ## 说明
