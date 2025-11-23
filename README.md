@@ -12,7 +12,7 @@
 
   * 3）除主流的MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC、H.266/VVC外，工具扩展支持了 AVS2, AVS3, Audio Vivid(AV3A)等编码格式 
 
-  * 4）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析；
+  * 4）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析, PID过滤和快速定位；
 
   * 5）分析结果数据导出，包括PCR，时间戳，码率，时间间距等内容；
 
@@ -63,6 +63,12 @@
 
 <center class="half">
     <img src="image/pkt_004.png" width="1280"/>
+</center>
+
+* 右键菜单：PID过滤
+
+<center class="half">
+    <img src="image/pkt_005.png" width="1280"/>
 </center>
 
 ### 时间戳曲线
@@ -183,8 +189,9 @@
 
 ## Links
 
-1. [MPEG-1/2/4](https://mpeg.chiariglione.org/)
-2. [ITU官方](https://www.itu.int/rec/T-REC-H/en)
-3. [AVS工作组](https://www.avs.org.cn/)
-4. [ETSI](https://www.etsi.org/deliver/)
+1. [TS流分析专栏](https://cloud.tencent.com/developer/column/105278)
+2. [MPEG-1/2/4](https://mpeg.chiariglione.org/)
+3. [ITU官方](https://www.itu.int/rec/T-REC-H/en)
+4. [AVS工作组](https://www.avs.org.cn/)
+5. [ETSI](https://www.etsi.org/deliver/)
 
