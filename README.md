@@ -6,27 +6,28 @@
 
   hysAnalyser是一款专业 MPEG-TS 数据分析和转换工具 ( Github：https://github.com/zymill/hysAnalyser )
 
-  * 1）MPEG-TS文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，RTP封装包列表等）
+  * 1）MPEG-TS文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，音视频格式，RTP封装包列表等）
 
   * 2）HLS实时流接入（M3u8列表，分片缓存等分析）
 
-  * 3）除主流的MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC、H.266/VVC外，工具扩展支持了 AVS2, AVS3, Audio Vivid(AV3A)等编码格式 
+  * 3）UDP实时流监测（实时码率曲线，PCR曲线，TR 101290统计）
 
-  * 4）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析, PID过滤和快速定位；
+  * 4）支持MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC、H.266/VVC，AVS/AVS2/AVS3, Audio Vivid(AV3A)等编码格式 
 
-  * 5）分析结果数据导出，包括PCR，时间戳，码率，时间间距等内容；
+  * 5）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析, 可通过PID过滤和快速定位；
 
-  * 6）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS2/AVS3 Nalunit/GOP/Picture List，更多 ES 详情可结合 flvAnalyser
+  * 6）分析结果数据导出，包括PCR，时间戳，码率，时间间距等内容；
 
-  * 7）流转换功能：从多节目流按需配置参数提取节目流, 单节目TS转存MP4/MKV;
+  * 7）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS2/AVS3 Nalunit/GOP/Picture List，更多 ES 详情可结合 flvAnalyser
 
-  * 8）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据；
+  * 8）流转换功能：从多节目流按需配置参数提取节目流, 单节目TS转存MP4/MKV;
 
-  * 9）流播发功能：TS按PCR周期播发 UDP 或 RTP(over UDP)，可作为直播源使用。
+  * 9）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据；
 
-  * 10）定制化功能：非 MPEG-TS/DVB 标准数据支持;
-  
-  * 11）UDP实时流监测：实时码率曲线，PCR曲线，TR 101290统计等
+  * 10）流播发功能：TS按PCR周期播发 UDP 或 RTP(over UDP)，可作为直播源使用。
+
+  * 11）定制化功能：非 MPEG-TS/DVB 标准数据支持; 
+
 
 （提示：hysAnalyser 部分增值功能需软件授权后才能激活使用，授权方法和费用请参考最后说明）
 
