@@ -10,7 +10,7 @@
 
   * 2）HLS实时流接入（M3u8列表，分片缓存等分析）
 
-  * 3）UDP实时流监测（实时码率曲线，PCR曲线，TR 101290统计）
+  * 3）UDP实时流监测（实时码率曲线，PCR曲线，TR 101290统计, PSI/SI, 音视频详情）
 
   * 4）支持MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC、H.266/VVC，AVS/AVS2/AVS3, Audio Vivid(AV3A)等编码格式 
 
