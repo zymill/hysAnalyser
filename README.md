@@ -195,4 +195,5 @@
 3. [ITU官方](https://www.itu.int/rec/T-REC-H/en)
 4. [AVS工作组](https://www.avs.org.cn/)
 5. [ETSI](https://www.etsi.org/deliver/)
+6. [hysAnalyser --- 逐包分析使用说明(增加PID过滤)](https://cloud.tencent.com/developer/article/2592704)
 
