@@ -1,6 +1,6 @@
 # hysAnalyser 
 
-  MPEG-TS analysis，仅支持中文
+  MPEG-TS analyser，仅支持中文
 
 ## 功能概述
 
