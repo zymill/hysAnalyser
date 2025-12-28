@@ -12,13 +12,13 @@
 
   * 3）UDP实时流监测（实时码率曲线，PCR曲线，TR 101290统计, PSI/SI, 音视频详情）
 
-  * 4）支持MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC、H.266/VVC，AVS/AVS2/AVS3, Audio Vivid(AV3A)等编码格式 
+  * 4）支持MP1/MP2/MP3/AAC/AC3/EAC3, MPEG-1/2/4，H.264/AVC、H.265/HEVC、H.266/VVC，AVS1/AVS+/AVS2/AVS3, Audio Vivid(AV3A)等编码格式 
 
   * 5）逐包分析：支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析, 可通过PID过滤和快速定位；
 
   * 6）分析结果数据导出，包括PCR，时间戳，码率，时间间距等内容；
 
-  * 7）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS2/AVS3 Nalunit/GOP/Picture List，更多 ES 详情可结合 flvAnalyser
+  * 7）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS1/AVS+/AVS2/AVS3 Nalunit/GOP/Picture List，更多 ES 详情可结合 flvAnalyser
 
   * 8）流转换功能：从多节目流按需配置参数提取节目流, 单节目TS转存MP4/MKV;
 
@@ -120,7 +120,7 @@
 
 ## 说明
 
-  * 1）flvAnalyser 全免费 （除了flv分析外，还具备H264/H265/H266/AVS2/AVS3等ES数据的分析和预览）
+  * 1）flvAnalyser 全免费 （除了flv分析外，还具备H264/H265/H266/AVS1/AVS+/AVS2/AVS3等ES数据的分析和预览）
 
   * 2）hysAnalyser 大部分功能可免费使用。部分功能需授权激活才能使用，可以参考文章尾部的授权说明！（微信：wybase）
 
