@@ -4,7 +4,7 @@
 
 ## 功能概述
 
-  hysAnalyser是一款专业 MPEG-TS 数据分析和转换工具 ( Github：https://github.com/zymill/hysAnalyser )，功能列表如下
+  hysAnalyser是一款专业 MPEG-TS 数据分析和转换工具  ( Github：https://github.com/zymill/hysAnalyser )，功能列表如下
 
   * 1）MPEG-TS文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，音视频格式，RTP封装包列表等）
 
