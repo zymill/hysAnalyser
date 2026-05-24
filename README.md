@@ -10,7 +10,7 @@
 
   * 2）HLS实时流接入（M3u8列表，分片缓存，下载码率）
 
-  * 3）UDP实时流监测（实时码率曲线，PCR曲线，TR 101290统计, PSI/SI, 音视频详情）
+  * 3）UDP/SRT实时流监测（实时码率曲线，PCR曲线，TR 101290统计, PSI/SI, 音视频详情）
 
   * 4）Audio/Video Codec List
     - Audio Codec：MP1/MP2/MP3/AAC/AC3/EAC3/**Audio Vivid(AV3A)**/**DRA**
@@ -145,7 +145,7 @@
 
   * hysAnalyser 视频格式分析能力说明：[https://cloud.tencent.com/developer/article/2609350]
 
-  * hysAnalyser UDP实时流分析使用指南: [https://cloud.tencent.com/developer/article/2589021]
+  * hysAnalyser UDP/SRT实时流分析使用指南: [https://cloud.tencent.com/developer/article/2589021]
 
   * hysAnalyser 从MPEG-TS导出ES功能指南: [https://cloud.tencent.com/developer/article/2521046]
   
