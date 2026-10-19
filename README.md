@@ -1,6 +1,10 @@
 # hysAnalyser 
 
-  MPEG-TS Analyser，仅支持中文
+  MPEG-TS Analyser，支持中文和英文（Support Both Chinese and English since **v1.4.000** ）
+
+<center class="half">
+    <img src="image/eng_ver.png" width="804"/>
+</center>  
 
 ## 功能概述
 
@@ -35,6 +39,12 @@
 
 
 （提示：hysAnalyser 部分增值功能需软件授权后才能激活使用，授权方法和费用请参考本文档末尾说明）
+
+## UTF-8版本（Unicode）
+
+<center class="half">
+    <img src="image/unicode.png" width="1280"/>
+</center>
 
 
 ## 图示
