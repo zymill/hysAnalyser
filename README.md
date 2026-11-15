@@ -16,7 +16,7 @@
 
   * 3）UDP/SRT实时流监测（实时码率曲线，PCR曲线，TR 101290统计, PSI/SI, 音视频详情）
 
-  * 4）Audio/Video Codec List
+  * 4）Video Play Support: Audio/Video Codec List
     - Audio Codec：MP1/MP2/MP3/AAC/AC3/EAC3/**Audio Vivid(AV3A)**/**DRA**
 	- Video Codec：**AVS1/AVS+/AVS2/AVS3**, MPEG-1/2/4，H.264/AVC、H.265/HEVC、**H.266/VVC**
 
@@ -25,7 +25,7 @@
 	- 单个Section包 支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析, 可通过PID过滤和快速定位；
 	- 单个PES包：追踪视音频 DTS、PTS、头部属性等关键信息
 
-  * 6）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS1/AVS+/AVS2/AVS3 Nalunit/GOP/Picture List，更多 ES 详情可结合 flvAnalyser
+  * 6）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS1/AVS+/AVS2/AVS3 Nalunit/GOP/Picture List，逐帧预览
 
   * 7）流播发功能：TS按PCR周期播发 UDP 或 RTP(over UDP)，可作为直播源使用, 用于测试验证的：加速1%，2%，降速1%，2%等模式
 
@@ -69,6 +69,10 @@
     <img src="image/pkt_002.png" width="1280"/>
 </center>
 
+<center class="half">
+    <img src="image/pkt_006.png" width="1280"/>
+</center>
+
 * 时间戳过滤
 
 <center class="half">
@@ -85,6 +89,26 @@
 
 <center class="half">
     <img src="image/pkt_005.png" width="1280"/>
+</center>
+
+### 视频播放
+
+* H264/H265/H266/MPEG-2
+
+<center class="half">
+    <img src="image/play_h26x.png" width="1280"/>
+</center>
+
+* AVS+
+
+<center class="half">
+    <img src="image/play_avs1.png" width="1280"/>
+</center>
+
+* AVS2/AV3A(audio vivid)
+
+<center class="half">
+    <img src="image/play_avs2.png" width="1280"/>
 </center>
 
 ### 时间戳曲线
@@ -104,6 +128,10 @@
 
 <center class="half">
     <img src="image/es_nalu.png" width="1280"/>
+</center>
+
+<center class="half">
+    <img src="image/es_gop.png" width="1280"/>
 </center>
 
 ### ts流编辑
