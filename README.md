@@ -1,69 +1,67 @@
-# hysAnalyser 
+# hysAnalyser
 
-  MPEG-TS Analyser，支持中文和英文（Support Both Chinese and English since **v1.4.000** ）
+MPEG-TS Analyser, supports both Chinese and English (Support Both Chinese and English since **v1.4.000**)
 
 <center class="half">
     <img src="image/eng_ver.png" width="804"/>
-</center>  
+</center>
 
-## 功能概述
+## Feature Overview
 
-  hysAnalyser是一款专业 MPEG-TS 数据分析和转换工具  ( Github：https://github.com/zymill/hysAnalyser )，功能列表如下
+hysAnalyser is a professional MPEG-TS data analysis and conversion tool (GitHub: https://github.com/zymill/hysAnalyser). The feature list is as follows:
 
-  * 1）MPEG-TS文件分析（PSI/SI，时间戳、码率、音视频同步，PES列表，音视频格式，RTP封装包列表等）
+* 1) MPEG-TS file analysis (PSI/SI, timestamps, bitrate, audio/video synchronization, PES list, audio/video formats, RTP encapsulated packet list, etc.)
 
-  * 2）HLS实时流接入（M3u8列表，分片缓存，下载码率）
+* 2) HLS live stream access (M3U8 playlist, segment caching, download bitrate)
 
-  * 3）UDP/SRT实时流监测（实时码率曲线，PCR曲线，TR 101290统计, PSI/SI, 音视频详情）
+* 3) UDP/SRT live stream monitoring (real-time bitrate curve, PCR curve, TR 101290 statistics, PSI/SI, audio/video details)
 
-  * 4）Video Play Support: Audio/Video Codec List
-    - Audio Codec：MP1/MP2/MP3/AAC/AC3/EAC3/**Audio Vivid(AV3A)**/**DRA**
-	- Video Codec：**AVS1/AVS+/AVS2/AVS3**, MPEG-1/2/4，H.264/AVC、H.265/HEVC、**H.266/VVC**
+* 4) Video Play Support: Audio/Video Codec List
+  - Audio Codec: MP1/MP2/MP3/AAC/AC3/EAC3/**Audio Vivid(AV3A)**/**DRA**
+  - Video Codec: **AVS1/AVS+/AVS2/AVS3**, MPEG-1/2/4, H.264/AVC, H.265/HEVC, **H.266/VVC**
 
-  * 5）逐包分析
-    - 单个TS包：追踪PCR，连续计数器，加密，调整字段等信息
-	- 单个Section包 支持PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT数据表解析, 可通过PID过滤和快速定位；
-	- 单个PES包：追踪视音频 DTS、PTS、头部属性等关键信息
+* 5) Packet-by-packet analysis
+  - Single TS packet: trace PCR, continuity counter, encryption, adaptation field and other information
+  - Single Section packet: supports parsing of PAT/PMT/SDT/NIT/BAT/EIT/CAT/RST/TDT/TOT/DIT/SIT tables, with PID filtering and quick positioning;
+  - Single PES packet: trace key information such as audio/video DTS, PTS, and header attributes
 
-  * 6）ES分析和导出：支持按PES格式 或 ES格式导出数据；支持输出 H.264/HEVC/VVC/AVS1/AVS+/AVS2/AVS3 Nalunit/GOP/Picture List，逐帧预览
+* 6) ES analysis and export: supports exporting data in PES format or ES format; supports outputting H.264/HEVC/VVC/AVS1/AVS+/AVS2/AVS3 Nalunit/GOP/Picture List with frame-by-frame preview
 
-  * 7）流播发功能：TS按PCR周期播发 UDP 或 RTP(over UDP)，可作为直播源使用, 用于测试验证的：加速1%，2%，降速1%，2%等模式
+* 7) Stream broadcasting: broadcast TS via UDP or RTP (over UDP) according to the PCR period; can be used as a live source, with modes for test verification such as 1%/2% acceleration and 1%/2% deceleration
 
-  * 8）流转换功能：从多节目流按需配置参数提取节目流, 单节目TS转存MP4/MKV;
+* 8) Stream conversion: extract a program stream from a multi-program stream by configuring parameters as needed; remux a single-program TS to MP4/MKV;
 
-  * 9）分析结果数据导出，包括PCR，时间戳，码率，时间间距等内容；
+* 9) Export of analysis result data, including PCR, timestamps, bitrate, time intervals, etc.;
 
-  * 10）高级功能：流编辑修改PID，修改时间戳，修改界面名称，删除指定PID数据, 纠正同步字，纠正PID连续计数器错误；
+* 10) Advanced features: stream editing to modify PID and timestamps, modify interface names, delete data of a specified PID, correct sync bytes, and correct PID continuity counter errors;
 
-  * 11）定制化功能：非 MPEG-TS/DVB 标准数据支持 (需授权); 
+* 11) Customized features: support for non-MPEG-TS/DVB standard data (license required);
 
+(Hint: Some value-added features of hysAnalyser require a software license to be activated. For licensing methods and fees, please refer to the notes at the end of this document.)
 
-（提示：hysAnalyser 部分增值功能需软件授权后才能激活使用，授权方法和费用请参考本文档末尾说明）
-
-## UTF-8版本（Unicode）
+## UTF-8 Version (Unicode)
 
 <center class="half">
     <img src="image/unicode.png" width="1280"/>
 </center>
 
+## Screenshots
 
-## 图示
-
-### 基本信息
+### Basic Information
 
 <center class="half">
     <img src="image/result_main.png" width="1280"/>
 </center>
 
-### 逐包分析
+### Packet-by-Packet Analysis
 
-* 全量包
+* All packets
 
 <center class="half">
     <img src="image/pkt_001.png" width="1280"/>
 </center>
 
-* PSI/SI过滤
+* PSI/SI filtering
 
 <center class="half">
     <img src="image/pkt_002.png" width="1280"/>
@@ -73,25 +71,25 @@
     <img src="image/pkt_006.png" width="1280"/>
 </center>
 
-* 时间戳过滤
+* Timestamp filtering
 
 <center class="half">
     <img src="image/pkt_003.png" width="1280"/>
 </center>
 
-* 右键菜单：PID过滤和快速定位
+* Context menu: PID filtering and quick positioning
 
 <center class="half">
     <img src="image/pkt_004.png" width="1280"/>
 </center>
 
-* 右键菜单：PID过滤
+* Context menu: PID filtering
 
 <center class="half">
     <img src="image/pkt_005.png" width="1280"/>
 </center>
 
-### 视频播放
+### Video Playback
 
 * H264/H265/H266/MPEG-2
 
@@ -105,26 +103,25 @@
     <img src="image/play_avs1.png" width="1280"/>
 </center>
 
-* AVS2/AV3A(audio vivid)
+* AVS2/AV3A (Audio Vivid)
 
 <center class="half">
     <img src="image/play_avs2.png" width="1280"/>
 </center>
 
-### 时间戳曲线
+### Timestamp Curve
 
 <center class="half">
     <img src="image/timestamp_diff.png" width="1280"/>
 </center>
 
-
-### ES流导出
+### ES Stream Export
 
 <center class="half">
     <img src="image/pes_export.png" width="1280"/>
 </center>
 
-### ES数据分析
+### ES Data Analysis
 
 <center class="half">
     <img src="image/es_nalu.png" width="1280"/>
@@ -134,25 +131,25 @@
     <img src="image/es_gop.png" width="1280"/>
 </center>
 
-### ts流编辑
+### TS Stream Editing
 
 <center class="half">
     <img src="image/edit.png" width="1280"/>
 </center>
 
-### 节目提取和转换
+### Program Extraction and Conversion
 
 <center class="half">
     <img src="image/trc.png" width="1280"/>
 </center>
 
-### ts流播发
+### TS Stream Broadcasting
 
 <center class="half">
     <img src="image/vss.png" width="1280"/>
 </center>
 
-### ts实时流分析
+### TS Real-Time Stream Analysis
 
 <center class="half">
     <img src="image/udp_01.png" width="1280"/>
@@ -161,82 +158,79 @@
     <img src="image/udp_02.png" width="1280"/>
 </center>
 
-## 说明
+## Notes
 
-  * 1）flvAnalyser 全免费 （除了 FLV 格式分析外，还具备 H264/H265/H266/AVS1/AVS+/AVS2/AVS3 等ES数据的分析和GOP视频预览）
+* 1) flvAnalyser is completely free (in addition to FLV format analysis, it also provides analysis of ES data such as H264/H265/H266/AVS1/AVS+/AVS2/AVS3 and GOP video preview)
 
-  * 2）hysAnalyser 大部分功能可免费使用。部分功能需授权激活才能使用，可以参考文章末尾的授权说明！（微信：wybase）
+* 2) Most features of hysAnalyser can be used for free. Some features require a license to be activated; please refer to the licensing notes at the end of this article! (WeChat: wybase)
 
-  hysAnalyser综述 (Chinese): [https://cloud.tencent.com/developer/article/2517652]
+hysAnalyser overview (Chinese): [https://cloud.tencent.com/developer/article/2517652]
 
-  flvAnalyser综述 (Chinese): [https://cloud.tencent.com/developer/article/2344723]
+flvAnalyser overview (Chinese): [https://cloud.tencent.com/developer/article/2344723]
 
+(Zhihu post address) [https://zhuanlan.zhihu.com/p/1902174484636631934]
 
-  (知乎发布地址)[https://zhuanlan.zhihu.com/p/1902174484636631934]
+## Detailed Feature Documentation
 
+* TS Stream Analysis Column (Tencent Cloud): [https://cloud.tencent.com/developer/column/105278]
 
-## 功能详细说明 
+* hysAnalyser — a distinctive TS stream analysis tool: [https://cloud.tencent.com/developer/article/2517652]
 
-  * TS流分析专栏 (腾讯云): [https://cloud.tencent.com/developer/column/105278]
+* hysAnalyser video format analysis capabilities: [https://cloud.tencent.com/developer/article/2609350]
 
-  * hysAnalyser 一个特色 TS 流分析工具: [https://cloud.tencent.com/developer/article/2517652]
+* hysAnalyser UDP/SRT real-time stream analysis user guide: [https://cloud.tencent.com/developer/article/2589021]
 
-  * hysAnalyser 视频格式分析能力说明：[https://cloud.tencent.com/developer/article/2609350]
+* hysAnalyser guide to exporting ES from MPEG-TS: [https://cloud.tencent.com/developer/article/2521046]
 
-  * hysAnalyser UDP/SRT实时流分析使用指南: [https://cloud.tencent.com/developer/article/2589021]
+* hysAnalyser's distinctive TS stream editing, trimming and MP4 remuxing guide: [https://zhuanlan.zhihu.com/p/1909374534462706463]
 
-  * hysAnalyser 从MPEG-TS导出ES功能指南: [https://cloud.tencent.com/developer/article/2521046]
-  
-  * hysAnalyser 特色的TS流编辑、剪辑和转存MP4功能指南: [https://zhuanlan.zhihu.com/p/1909374534462706463]
-  
-  * hysAnalyser 逐包分析MPEG-TS的功能指南: [https://zhuanlan.zhihu.com/p/1912444921148839675]
+* hysAnalyser packet-by-packet MPEG-TS analysis guide: [https://zhuanlan.zhihu.com/p/1912444921148839675]
 
-  * hysAnalyser 分析非标准数据的功能指南: [https://zhuanlan.zhihu.com/p/1919683425092233142]
-  
-  * hysAnalyser 支持菁彩视听双Vivid媒体信息解析: [https://cloud.tencent.com/developer/article/2537509]
-  
-  * hysAnalyser 支持文件转播UDP/RTP实时流功能: [https://cloud.tencent.com/developer/article/2553390]
- 
+* hysAnalyser guide to analyzing non-standard data: [https://zhuanlan.zhihu.com/p/1919683425092233142]
 
-## 授权联系和费用介绍
+* hysAnalyser support for parsing dual-Vivid (Audio Vivid) media information: [https://cloud.tencent.com/developer/article/2537509]
 
-  * 知乎 (Chinese)：[https://www.zhihu.com/people/zymill]
+* hysAnalyser support for broadcasting files as UDP/RTP real-time streams: [https://cloud.tencent.com/developer/article/2553390]
 
-  * 微信： wybase
+## Licensing Contact and Fees
 
-  * Email: hybase@qq.com
-  
-  * 授权费用（提供两种模式）
+* Zhihu (Chinese): [https://www.zhihu.com/people/zymill]
 
-    - 单台机器授权费用：**2027年1月1日前促销价 48 元 RMB (原价 68元 RMB) / 单台机器**   (永久授权，享有后续版本升级的所有新功能)
+* WeChat: wybase
 
-    - 双台机器授权费用：**2027年1月1日前促销价 78 元 RMB (原价108元 RMB) / 两台机器**   (永久授权，享有后续版本升级的所有新功能)
-	
-	补充：**2026年1月1日以前授权的老用户，如果需要新增设备，继续享有 35 元/单台机器优惠价格**
+* Email: hybase@qq.com
 
-  * 授权方法
+* License fees (two modes available)
 
-  1.入口
-  
+  - Single-machine license: **Promotional price before January 1, 2027: 48 RMB (original price 68 RMB) / single machine** (perpetual license, includes all new features of subsequent version upgrades)
+
+  - Two-machine license: **Promotional price before January 1, 2027: 78 RMB (original price 108 RMB) / two machines** (perpetual license, includes all new features of subsequent version upgrades)
+
+  Note: **Existing users who licensed before January 1, 2026 can continue to enjoy the preferential price of 35 RMB per additional machine**
+
+* Licensing method
+
+  1. Entry
+
 <center class="half">
     <img src="image/auth_001.png" width="480"/>
 </center>
-  
-  2.采集机器码
+
+  2. Collect the machine code
 
 <center class="half">
     <img src="image/auth_002.png" width="480"/>
 </center>
-  
-  3.注册
+
+  3. Register
 
 <center class="half">
     <img src="image/auth_003.png" width="480"/>
 </center>
 
-## 支持和赞赏
+## Support and Appreciation
 
- * 如果您愿意支持本软件的长期发展，可以通过微信赞赏。谢谢！（若赞赏额超出授权注册费用，请告知作者，以便作者及时提供授权码）
+* If you are willing to support the long-term development of this software, you can donate via WeChat. Thank you! (If the donation amount exceeds the license registration fee, please inform the author so that the author can provide the license code in time)
 
 <center class="half">
     <img src="image/zs.jpg" width="480"/>
@@ -244,10 +238,9 @@
 
 ## Links
 
-1. [TS流分析专栏](https://cloud.tencent.com/developer/column/105278)
+1. [TS Stream Analysis Column](https://cloud.tencent.com/developer/column/105278)
 2. [MPEG-1/2/4](https://mpeg.chiariglione.org/)
-3. [ITU官方](https://www.itu.int/rec/T-REC-H/en)
-4. [AVS工作组](https://www.avs.org.cn/)
+3. [ITU Official](https://www.itu.int/rec/T-REC-H/en)
+4. [AVS Workgroup](https://www.avs.org.cn/)
 5. [ETSI](https://www.etsi.org/deliver/)
-6. [hysAnalyser 逐包分析使用说明(增加PID过滤)](https://cloud.tencent.com/developer/article/2592704)
-
+6. [hysAnalyser packet-by-packet analysis guide (with PID filtering)](https://cloud.tencent.com/developer/article/2592704)
